@@ -11,6 +11,8 @@ The website consists of a header, a hero image, a main content section, and a fo
 
 The website uses semantic HTML tags to define the structure and meaning of the content, such as `<header>`, `<nav>`, `<article>`, and `<footer>`. It also uses CSS variables to store common values, such as colors, fonts, and sizes, and classes to group common styles and avoid repetition. The website also has a descriptive title, meaningful and descriptive `alt` attributes for images, and comments to explain the purpose and function of the code.
 
+You can visit the website by clicking on this [LINK](https://cntervisi.github.io/HoriseonMarketing/).
+
 Here are some screenshots of the website:
 
 ![alt"Header-hero-screenshot"](./assets/images/header-hero.jpg)

@@ -5,17 +5,20 @@
   margin: 0;
 }
 
-/* declaring the background color of the page */
+/* Declared the background color of the page */
 body {
   background-color: #d9dcd6;
 }
 
-/* declaring the font size for text on the page */
+/* Declared the font size for all paragraph text on the page to 16px. */
 p {
   font-size: 16px;
 }
 
-/* HEADER (position fixed to follow user while scrolling) */
+/* This block of code sets the header's properties. 
+  It sets the padding to 20px, the font-family to a list of fallback fonts, 
+  the background color to a dark blue color, the text color to white, 
+  and the position to fixed. It also sets the width to 100%. */
 header {
   padding: 20px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -25,12 +28,12 @@ header {
   position: fixed;
   width: 100%;
 }
-
+/* H1 display position and font size */
 h1 {
   display: inline-block;
   font-size: 48px;
 }
-
+/* Declared properties for nav bar parent */
 nav {
   padding-top: 15px;
   margin-right: 20px;
@@ -39,18 +42,19 @@ nav {
   font-size: 20px;
   list-style-type: none;
 }
-
+/* This block of code sets the properties for the nav li (bulletpoints). 
+  It sets the display to inline-block and the margin-left to 25px. */
 nav ul li {
   display: inline-block;
   margin-left: 25px;
 }
-
+/* /* This block of code sets the color of all links to white and removes the underline. */
 a {
   color: #ffffff;
   text-decoration: none;
 }
 
-/* HERO section */
+/* This block of code sets the properties for the hero section. */
 .hero {
   height: 800px;
   width: 100%;
@@ -59,21 +63,23 @@ a {
   background-size: cover;
   background-position: center;
 }
-
-/* PRIMARY section */
+/* This block of code sets the properties for the primary section. 
+  It sets the display to flex, the justify-content to space-between, and the column-gap to 20px. */
 .primary {
   display: flex;
   justify-content: space-between;
   column-gap: 20px;
 }
-/* main {
-  flex-basis: 80%;
-} */
-
+/* This block of code sets the properties for the content section. 
+  It sets the display to inline-block and the margin-left to 20px. */
 .content {
   display: inline-block;
   margin-left: 20px;
 }
+/* Declared properties for the three services sections.
+  It sets the margin-bottom to 20px, the padding to 50px, the height to 300px, 
+  the font-family to a list of fallback fonts, the background color to a dark blue color, 
+  the text color to white, the display to flex, and the gap to 20px. */
 .services{
   margin-bottom: 20px;
   padding: 50px;
@@ -84,23 +90,23 @@ a {
   display: flex;
   gap: 20px;
 }
-
+/* declaredd row reverse for this specific section */
 .online-reputation-management {
   flex-direction: row-reverse;
 }
 
-/* set images in main section to 200px */
+/* This block of code sets the max-height for all images in the services section to 200px. */
 .services img {
   max-height: 200px;
 }
 
-/* set the H2 titles of the 3 sections to 36px font and 20px margin-bottom */
+/* Declared the margin-bottom to 20px and the font-size to 36px for all h2 titles in the services sections. */
 .services h2 {
   margin-bottom: 20px;
   font-size: 36px;
 }
 
-/* SIDEBAR section */
+/* This block of code sets the properties for the benefits section. */
 .benefits {
   margin-right: 20px;
   padding: 20px;
@@ -111,24 +117,26 @@ a {
   background-color: #2589bd;
   flex-basis: 20%;
 }
-
+/* The benefit class is used to style individual benefits. It has a bottom margin of 32px, 
+ and the text color is set to white. */
 .benefit {
   margin-bottom: 32px;
   color: #ffffff;
 }
-
+/* The h3 element within the benefit class is styled to have a bottom margin of 10px, 
+ and the text is centered. */
 .benefit h3 {
   margin-bottom: 10px;
   text-align: center;
 }
-
+/* Declared properties for the benefit img class */
 .benefit img {
   display: block;
   margin: 10px auto;
   max-width: 150px;
 }
 
-/* FOOTER section */
+/* This block of code styles the footer section */
 .footer {
   padding: 30px;
   clear: both;
@@ -136,7 +144,7 @@ a {
     "Lucida Sans", Arial, sans-serif;
   text-align: center;
 }
-
+/* Declared the font size for H2 in footer. */
 .footer h2 {
   font-size: 20px;
 }
