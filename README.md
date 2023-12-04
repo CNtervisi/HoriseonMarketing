@@ -1,4 +1,4 @@
-# HoriseonMarketing
+# Horiseon-Marketing
 
 ## Description
 This project is a refactored version of an existing website for Horiseon, a marketing agency that offers services such as search engine optimization, online reputation management, and social media marketing. The goal of this project is to make the website more accessible for users with disabilities and improve its performance and SEO.
@@ -18,6 +18,9 @@ Here are some screenshots of the website:
 ![alt"Header-hero-screenshot"](./assets/images/header-hero.jpg)
 ![alt"main-content-screenshot"](./assets/images/main-content.jpg)
 ![alt"footer-screenshot"](./assets/images/footer.jpg)
+
+## Credits
+During this project, the [MDN](https://developer.mozilla.org/en-US/) website was a vital source of research and information. I am grateful for their valuable tutorials and amazing content.
 
 ## License
 This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for more details.
