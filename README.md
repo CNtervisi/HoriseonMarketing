@@ -18,4 +18,4 @@ Here are some screenshots of the website:
 ![alt"footer-screenshot"](./assets/images/footer.jpg)
 
 ## License
-This project is licensed under the MIT License. See the [LICENSE] file for more details.
+This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for more details.
