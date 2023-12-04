@@ -4,17 +4,14 @@
   padding: 0;
   margin: 0;
 }
-
 /* Declared the background color of the page */
 body {
   background-color: #d9dcd6;
 }
-
 /* Declared the font size for all paragraph text on the page to 16px. */
 p {
   font-size: 16px;
 }
-
 /* This block of code sets the header's properties. 
   It sets the padding to 20px, the font-family to a list of fallback fonts, 
   the background color to a dark blue color, the text color to white, 
@@ -53,7 +50,6 @@ a {
   color: #ffffff;
   text-decoration: none;
 }
-
 /* This block of code sets the properties for the hero section. */
 .hero {
   height: 800px;
@@ -80,7 +76,7 @@ a {
   It sets the margin-bottom to 20px, the padding to 50px, the height to 300px, 
   the font-family to a list of fallback fonts, the background color to a dark blue color, 
   the text color to white, the display to flex, and the gap to 20px. */
-.services{
+.services {
   margin-bottom: 20px;
   padding: 50px;
   height: 300px;
@@ -94,18 +90,15 @@ a {
 .online-reputation-management {
   flex-direction: row-reverse;
 }
-
 /* This block of code sets the max-height for all images in the services section to 200px. */
 .services img {
   max-height: 200px;
 }
-
 /* Declared the margin-bottom to 20px and the font-size to 36px for all h2 titles in the services sections. */
 .services h2 {
   margin-bottom: 20px;
   font-size: 36px;
 }
-
 /* This block of code sets the properties for the benefits section. */
 .benefits {
   margin-right: 20px;
@@ -135,7 +128,6 @@ a {
   margin: 10px auto;
   max-width: 150px;
 }
-
 /* This block of code styles the footer section */
 .footer {
   padding: 30px;
